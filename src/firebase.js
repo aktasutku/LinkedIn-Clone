@@ -3,8 +3,8 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDsstQl66hbhPD9F6NZddAfLYyH7md5MWU",
-  authDomain: "linkedin-clone-b530a.firebaseapp.com",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTHDOMAIN,
   projectId: "linkedin-clone-b530a",
   storageBucket: "linkedin-clone-b530a.appspot.com",
   messagingSenderId: "15266169867",
